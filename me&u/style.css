@@ -1,0 +1,118 @@
+h1{
+    text-align: center;
+    color:white;
+    font-family: 'Bitter', serif;
+}
+h2{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    font-family:cursive;
+}
+header{
+    background-color:rgb(85, 121, 230);
+}
+li {
+    float: left;
+    margin-right: 2%;
+  }
+ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0;
+}
+  nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:darkgrey;
+  }
+  header, nav, footer {
+    padding: .5em;
+  }
+  p, nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  a:hover {
+    color:antiquewhite;
+  }
+  
+  a:active {
+   color: yellow;
+  }
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  #box {
+    padding: 0%;
+    max-width: 100%;
+    margin: auto;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.3%;
+  }
+  @media screen and (min-width: 960px){
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.3%;
+    }
+  }
+  
+  button {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3a6ed6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  }
+  button:hover {background-color: #3156ad}
+  button:active {
+    background-color: #3e498e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  article {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .borders{
+    border:5px solid black
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+  position: relative;
+  overflow: hidden;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+body{
+  margin:0;
+}
+p{
+  font-size: 20px; 
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  line-height: 150%;
+}
+@font-face {
+  font-family: 'Bitter', serif;
+  src: url(Bitter-VariableFont_wght.ttf) format('woff2');
+ }
