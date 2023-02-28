@@ -1,23 +1,24 @@
 const pics = ["catpics/cat1.jpg",
-"catpics/cat2.jpg","catpics/cat3.jpg",
-"catpics/cat4.jpg","catpics/cat5.jpg",
-"catpics/cat6.jpg","catpics/cat7.jpg",
-"catpics/cat8.jpg","catpics/cat9.jpg",
-"catpics/cat10.jpg","catpics/cat11.jpg",
-"catpics/cat12.jpg","catpics/cat13.jpg",
-"catpics/cat14.jpg","catpics/cat15.jpg",
-"catpics/cat16.jpg","catpics/cat17.jpg",
-"catpics/cat18.jpg","catpics/cat19.jpg",
-"catpics/cat20.jpg","catpics/cat22.jpg",
-"catpics/cat23.jpg","catpics/cat24.jpg",
-"catpics/cat25.jpg","catpics/cat26.jpg",];
+"catpics/cat2.jpg","catpics/cat3.JPG",
+"catpics/cat4.JPG","catpics/cat5.jpg",
+"catpics/cat6.JPG","catpics/cat7.JPG",
+"catpics/cat8.JPG","catpics/cat9.JPG",
+"catpics/cat10.JPG","catpics/cat11.JPG",
+"catpics/cat12.JPG","catpics/cat13.JPG",
+"catpics/cat14.JPG","catpics/cat15.JPG",
+"catpics/cat16.JPG","catpics/cat17.JPG",
+"catpics/cat18.JPG","catpics/cat19.JPG",
+"catpics/cat20.JPG","catpics/cat21.JPG",
+"catpics/cat23.JPG","catpics/cat24.JPG",
+"catpics/cat25.jpeg","catpics/cat26.jpg",
+             "catpics/cat21.JPG",];
 
 const button = document.querySelector("button");
 button.addEventListener("click", next);
 
 var change_img = document.getElementById("placeholder");
 function next(){
-    let i = getRandomInt(0,25);
+    let i = getRandomInt(0,26);
     change_img.src = pics[i];
 }
 
